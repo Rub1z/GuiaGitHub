@@ -1,0 +1,342 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont{
+	height: 100vh;
+	margin: -8px;
+	background-color: #015d45;
+}
+
+.top{
+	background-color: #ffffff;
+	height: 8vh;
+	display: flex;
+}
+
+.img1{
+	height: 50px;
+	position: relative;
+	top: 14px;
+	left: 28vh;
+}
+
+hr{
+	height: 35px;
+	position: relative;
+	top: 10px;
+	right: 200px;
+}
+
+.topright{
+	display: flex;
+	float: right;
+	margin-left: 74vh;
+	margin-top: 1vh;
+}
+
+.list{
+	display: flex;
+	list-style: none;
+	margin-right: 4vh;
+}
+
+.list2{
+	display: flex;
+	list-style: none;
+	position: relative;
+	top: 13px;
+	right: 330px;
+}
+
+
+.list>li{
+	margin-right: 35px;
+}
+
+.alist{
+	text-decoration-line: none;
+	color: black;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+.verde{
+	color: #015c44;
+}
+
+.alist1{
+	text-decoration-line: none;
+	margin-top: 10px;
+	color: black;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+ul li:hover{
+	background: white;
+}
+
+ul li:hover ul{
+	display: block;
+}
+
+ul li ul{
+  position: absolute;
+  width: 100px;
+  display: none;
+  margin-left: -40px;
+}
+
+ul li ul li{ 
+  background: white; 
+  display: block; 
+  width: 85px;
+  height: 22px;
+}
+
+ul li ul li a{
+	display:block !important;
+} 
+ul li ul li a:hover{
+	display:block !important;
+	color: #015c44;
+	font-weight: bold;
+	margin-left: 10px;
+} 
+
+
+select{
+	border: none;
+}
+
+.a{
+	text-decoration-line: none;
+	margin-left: -3vh;
+	color: #000000;
+	font-size: 18px;
+}
+
+.a{
+	text-decoration-line: none;
+	margin-left: -3vh;
+	color: #000000;
+	font-size: 18px;
+}
+
+.a:hover{
+	color: #015c44;
+}
+
+.divsignup{
+	margin-top: 15px;
+	background-color: #008060;
+	height: 50px;
+	width: 120px;
+	border-radius: 5px;
+	position: relative;
+	right: 295px;
+
+}
+
+.signupi{
+	width: 20px;
+	margin-left: 8px;
+}
+
+.signup{
+	display: flex;
+	margin-top: 16px;
+	margin-left: 10px;
+	text-decoration-line: none;
+	color: #000000;
+}
+
+.signuptxt{
+	color: white;
+	margin-top: 1px;
+	margin-left: 3px;
+}
+
+.land{
+	color: red;
+}
+
+.bottom{
+	background-color: #015d45;
+}
+
+.bottomcont{
+	display: flex;
+	margin: 5%;
+	margin-top: -800px;
+}
+
+.leftimg{
+	display: flex;
+	margin-right: 14vh;
+}
+
+.sep{
+	margin-left: 2vh;
+}
+
+.icons{
+	width: 45px;
+	margin-top: 17px;
+}
+
+.iconstitle{
+	font-size: 19px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin-bottom: -13px;
+}
+
+.iconstext{
+	color: #bacfc8;
+	font-size: 17px;
+}
+
+.left{
+	margin-left: 18vh;
+	margin-top: 10vh;
+}
+
+.flex{
+	display: flex;
+}
+
+
+.right{
+	width: 33%;
+	background-color: #ffffff;
+	margin-left: 8.5%;
+	border-radius: 5px;
+	height: 620px;
+}
+
+.color{
+	color: #f1b980;
+}
+
+.p{
+	color: #ffffff;
+	font-size: 75px;
+	font-weight: bolder;
+	margin-top: 2vh;
+	margin-bottom: 8px;
+}
+
+.text{
+	color: #b1c8c0;
+	font-size: 29px;
+	line-height: 40px;
+}
+
+.bottomright{
+	display: flex;
+	margin-top: 3vh;
+}
+
+.img{
+	width: 160px;
+}
+
+.rightimg{
+	margin-top: 1vh;
+	margin-left: 3vh;
+}
+
+.p2{
+	color: #00221c;
+	margin-left: 3vh;
+	font-weight: bolder;
+	font-size: 23px;
+	margin-bottom: -8px;
+}
+
+.text2{
+	margin-left: 3vh;
+	font-size: 18px;;
+	line-height: 25px;
+	color: #585f71;
+	margin-right: 10px;
+}
+
+.form{
+	font-size: 14px;
+	margin-top: 15px;
+	margin-left: 4vh;
+	font-weight: bolder;
+	color: #585f71;
+}
+
+.input{
+	border-radius: 5px;
+	border-color: #e6e8e8;
+	border-width: 1px;
+	width: 92%;
+	height: 45px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.input2{
+	margin-left: 24vh;
+	margin: 10px;
+}
+
+.inputradio{
+	border-radius: 5px;
+	border: solid #e6e8e8 1px;
+	margin-right: 22px;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 170px;
+}
+
+.inputradio2{
+	border-radius: 5px;
+	border: solid #e6e8e8 1px;
+	padding: 5px;
+	padding-left: 8px;
+	padding-right: 96px;
+}
+
+.submit{
+	width: 93%;
+	height: 45px;
+	border-width: 0px;
+	border-radius: 5px;
+	background-color: #008060;
+	color: #ffffff;
+	font-size: 17px;
+}
+
+.label{
+	font-size: 16px;
+	font-weight: initial;
+}
+
+.divform{
+	line-height: 38px;
+}
+
+.h{
+	color: #8c98a4;
+	font-weight: initial;
+}
+
+.help{
+	text-align: center;
+	margin-top: 4px;
+	font-size: 12px;
+	color: #288c6f;
+	font-weight: bolder;
+}
+
+.ahelp{
+	color: #288c6f;
+	text-decoration-line: none;
+}
